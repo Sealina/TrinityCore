@@ -645,8 +645,6 @@ TC_GAME_API bool normalizePlayerName(std::string& name);
 #define SPAWNGROUP_MAP_UNSET            0xFFFFFFFF
 #define SPAWNGROUP_MAX_SYSTEMGROUPID    0xFF
 
-bool normalizePlayerName(std::string& name);
-
 struct LanguageDesc
 {
     Language lang_id;
